@@ -11,7 +11,7 @@ K = sum(N_seeds);
 fileID = fopen('../graph/graph20.txt','r');
 formatSpec = '%f';
 Adj = fscanf(fileID,formatSpec);
-Adj = reshape(Adj, [N, N]);
+Adj = reshape(Adj, [N_nodes, N_nodes]);
 N_ites = 9*N_nodes^2;
 
 %% Group

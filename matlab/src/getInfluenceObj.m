@@ -23,7 +23,7 @@ for t=1:T
     inf_value(t) = sum(node_state);
     influence_obj(t) = obj_func(inf_value(t), obj_id);
     if mod(t,100) == 0
-        sprintf('iteration: %d\n',t)
+        %sprintf('iteration: %d\n',t)
     end
 end
 
